@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Start Time: "
+        android:textColor="@color/lavender"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/selectFromLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Start Location" />
+
+    <Button
+        android:id="@+id/selectToLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select End Location" />
+
+    <EditText
+        android:id="@+id/dialogNumberOfPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Number of Places"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/lavender"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/dialogRidePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/lavender"
+        android:paddingBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/confirmRideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Ride" />
+
+        <Button
+            android:id="@+id/cancelRideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
+

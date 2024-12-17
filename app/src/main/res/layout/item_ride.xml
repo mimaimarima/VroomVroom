@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bgg"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/rideStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Time"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/startLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From" />
+
+
+
+    <Button
+        android:id="@+id/endLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To" />
+
+
+    <TextView
+        android:id="@+id/rideDistanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: 0.0 km"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/ridePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/driverDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver: John Doe" />
+
+    <TextView
+        android:id="@+id/driverRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: 4.5" />
+
+    <TextView
+        android:id="@+id/vehicleType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle: Sedan" />
+
+    <TextView
+        android:id="@+id/licensePlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="License Plate: ABC1234" />
+
+    <Button
+        android:id="@+id/finishRideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ride Finished"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/rateDriverButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate Driver"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ratePassengersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate Passengers"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/startLocationCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Coordinates: "
+        android:textSize="14sp" />
+    <!-- Display end location coordinates -->
+    <TextView
+        android:id="@+id/endLocationCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Coordinates: "
+        android:textSize="14sp" />
+</LinearLayout>

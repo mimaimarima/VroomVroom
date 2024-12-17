@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/vroom_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vroom" />
+    <TextView
+        android:id="@+id/ratingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="My rating"
+        android:textSize="14sp"
+        android:textColor="@color/lavender"
+        android:textStyle="italic"
+        />
+    <Button
+        android:id="@+id/openVehicleDetailsDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vehicle Details"
+        />
+
+    <Button
+        android:id="@+id/addRideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Ride" />
+
+    <TextView
+        android:id="@+id/startLocationCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start Coordinates: "
+        android:textColor="@color/lavender"
+        />
+
+    <TextView
+        android:id="@+id/endLocationCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="End Coordinates: "
+        android:textColor="@color/lavender"/>
+
+    <Button
+        android:id="@+id/myRidesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="My Rides" />
+
+</LinearLayout>
+</ScrollView>

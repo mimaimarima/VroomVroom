@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dialogLicencePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="License Plate"
+        android:background="@android:color/transparent"
+        android:textColor="@color/lavender"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/dialogVehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Type"
+        android:background="@android:color/transparent"
+        android:textColor="@color/lavender"
+        android:padding="10dp" />
+</LinearLayout>

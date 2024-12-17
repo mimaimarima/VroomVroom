@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".SignupActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+                <ImageView
+                    android:id="@+id/vroom_logo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="100dp"
+                    android:src="@drawable/vroom" />
+                <TextView
+                    android:id="@+id/app_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="VroomVroom™"
+                    android:textColor="@color/lavender"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/app_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4dp"
+                    android:text="Ride Sharing. For Everyone"
+                    android:textColor="@color/lavender"
+                    android:textSize="18sp"
+                    />
+
+                <EditText
+                    android:id="@+id/signup_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/lavander_border"
+                    android:hint="Email"
+                    android:textStyle="italic"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/signupDisplayName"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavander_border"
+                    android:drawablePadding="8dp"
+                    android:hint="Display Name"
+                    android:textStyle="italic"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/signup_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavander_border"
+                    android:drawablePadding="8dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textStyle="italic"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/signup_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavander_border"
+                    android:drawablePadding="8dp"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textStyle="italic"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="Select User Type"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/userTypeGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/driverRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="30dp"
+                            android:checked="false"
+                            android:text="Driver"
+                            android:textSize="16sp" />
+
+                        <RadioButton
+                            android:id="@+id/passengerRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Passenger"
+                            android:textSize="16sp" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Sign Up"
+                    android:textSize="18sp"
+                    app:cornerRadius="30dp" />
+
+                <TextView
+                    android:id="@+id/loginRedirectText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:text="Already an user? Login"
+                    android:textColor="@color/lavender"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+</ScrollView>
